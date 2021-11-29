@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="mystyle.css">
+    <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main class="main-container">
+        <h1 class="heading">Note it📚</h1>
+    <form action="" class="form">
+        <label for="input" class="input-label" style="display:block">Add note</label>
+        <input id="input" autofocus>
+    <button type="submit" id="submit"><i class="fa fa-lg  fa-plus" aria-hidden="true"></i>
+    </button>
+    </form>
+    
+    <div id="todos-container">
+        <ul id="todos">
+            <ul class="pinned-container">
+                <h3 class="todo-header">Pinned</h3>
+            </ul>
+            <div class="others-container">
+                <h3 class="todo-header">Others</h3>
+               
+
+            </div>
+
+        </ul>
+    </div>
+    <div class="modal-container">
+        <div class="modal">
+            <textarea type="text" class="modal-input" wrap="soft"></textarea>
+            <button class="close-btn">Close</button>
+        </div>
+    </div>
+</main>
+<footer class="footer">
+    <p class="connect">Connect with me</p>
+    <ul class="socials">
+        <li class="links"><a href="https://github.com/rahulmistry751" target="_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a></li>
+        <li class="links"><a href="https://www.linkedin.com/in/rahul-mistry-xl/" target="_blank"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+        <li class="links"><a href="https://rahul-folio.netlify.app/" target="_blank"><i class="fa fa-briefcase fa-lg" aria-hidden="true"></i></a></li>
+    </ul>
+</footer>
+    <script src="app.js"></script>
+</body>
+</html>
